@@ -17,7 +17,7 @@ This project therefore aims to answer:
 
 ## Executive Summary
 
-For this project, I scraped over 16,000 articles and 5,000,000 comments using the [nyt-scraper](https://github.com/ietz/nytimes-scraper) package. Some basic data cleaning and pre-processing was also done.
+For this project, I scraped over 16,000 articles and 5,000,000 comments from January 2020 - December 2020 using the [nyt-scraper](https://github.com/ietz/nytimes-scraper) package. Some basic data cleaning and pre-processing was also done.
 
 The top-performing model was a XGBoost Classifier which achieved an ROC-AUC score of <b>0.869</b> and an accuracy of <b>0.786</b>. A wide range of feature engineering techniques were used to accomplish this, including sentiment analysis and transformation of categorical features to ordinal features based on overall average popularity. 
 
@@ -49,6 +49,13 @@ Of course, just because an article has a low number of comments doesn't necessar
 The NYT has to also uphold a degree of journalistic integrity -- even though using a click-bait headline might get them more comments, it’s in their own interest to remain an impartial and trusted source of news.
 
 Additionally, this model is heavily affected by an article's news desk / section / subsection. More work should be done to ensure that an article's popularity isn't over or under predicted. Other predictors that could be looked into include topic 'freshness', where topics that are new tend to do much better than old topics (unless it's about Donald Trump).
+
+## Related Work
+
+In the course of this project, I also found a few other datasets that focus on the prediction of online news popularity:
+- [Mashable 2015 Dataset](https://archive.ics.uci.edu/ml/datasets/online+news+popularity) - contains covers 39,797 articles and over 61 features.
+- [New York Times Blog Posts 2015 Dataset](https://www.kaggle.com/c/15-071x-the-analytics-edge-competition-spring-2015/overview) - a dataset that was part of a Kaggle competition to predict the popularity of New York Times blog posts.
+- [New York Times Comments 2017 / 2018 Dataset](https://www.kaggle.com/aashita/nyt-comments) - this dataset was mainly used by Kaggle users to analyze comment popularity e.g. what makes a comment popular, or likely to be recommended to other readers by the NYT staff.
 
 ## Data Dictionary
 
