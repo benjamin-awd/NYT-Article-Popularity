@@ -52,9 +52,9 @@ Additionally, this model is heavily affected by an article's news desk / section
 
 ## Related Work
 
-In the course of this project, I also found a few other datasets that focus on the prediction of online news popularity:
-- [Mashable 2015 Dataset](https://archive.ics.uci.edu/ml/datasets/online+news+popularity) - contains covers 39,797 articles and over 61 features.
-- [New York Times Blog Posts 2015 Dataset](https://www.kaggle.com/c/15-071x-the-analytics-edge-competition-spring-2015/overview) - a dataset that was part of a Kaggle competition to predict the popularity of New York Times blog posts.
+In the course of this project, I found a few other datasets that have a similar focus on online news popularity:
+- [Mashable 2015 Dataset](https://archive.ics.uci.edu/ml/datasets/online+news+popularity) - contains 39,797 articles and over 61 features. In addition to features such as sentiment polarity, the authors of the dataset used latent dirichlet allocation (LDA) to group articles into five different topics.
+- [New York Times Blog Posts 2015 Dataset](https://www.kaggle.com/c/15-071x-the-analytics-edge-competition-spring-2015/overview) - part of a Kaggle competition to predict the popularity of New York Times blog posts. Contains A wide range of models and methods were used in this competition.
 - [New York Times Comments 2017 / 2018 Dataset](https://www.kaggle.com/aashita/nyt-comments) - this dataset was mainly used by Kaggle users to analyze comment popularity e.g. what makes a comment popular, or likely to be recommended to other readers by the NYT staff.
 
 ## Data Dictionary
