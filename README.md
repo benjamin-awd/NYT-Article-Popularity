@@ -1,4 +1,4 @@
-# Capstone Project: Predicting the Popularity of New York Times Articles
+# Capstone Project: Predicting New York Times Article Popularity
 
 ## Introduction
 The New York Times is one of the most popular news platforms in the world and is visited by a countless number of visitors each day.
@@ -39,6 +39,8 @@ For articles that our model predicts to be unpopular, the following can be done:
 - Change publication time to between 10pm and 3am
 - Make sure the story is tied to the current socio-political context and use the right keywords
 - Use a recommendation system to drive traffic to from popular articles to unpopular articles
+
+As previously mentioned, this model can also be used in tandem with the moderation team's current tools to improve overall moderation effiency.
 
 ## Limitations
 
