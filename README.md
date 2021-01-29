@@ -56,7 +56,7 @@ The media industry is changing pretty rapidly -- it isn't enough to put out regu
 
 There's also been a turn towards reader engagement in the form of interactive articles. Many millennials / Gen Z youth have obtained a pretty high standard of digital literacy. They appreciate graphs and data that personally speaks to them, versus a static page that doesn't allow for any interaction.
 
-As digital advertising changes in the wake of digital privacy laws and changing consumer habits, newspapers and the media industry in general must drastically overhaul their business to stay profitable. This also extends to the field of public relations, which needs to adopt new tools and methodologies to be able to <b>tell stories that people actually want to hear</b>. Being able to predict news popularity will continue to be a key area of interest over the coming years.
+As digital advertising changes in the wake of digital privacy laws and changing consumer habits, newspapers and the media industry in general must drastically overhaul their business to stay profitable. This also extends to the field of public relations, which needs to adopt new tools and methodologies to be able to <b>tell stories that people actually want to hear</b>. This project represents an attempt at media analytics which can help both news content providers and third party news providers (e.g. public relations firms).
 
 ## Related Work
 
