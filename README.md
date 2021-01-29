@@ -50,12 +50,20 @@ The NYT has to also uphold a degree of journalistic integrity -- even though usi
 
 Additionally, this model is heavily affected by an article's news desk / section / subsection. More work should be done to ensure that an article's popularity isn't over or under predicted. Other predictors that could be looked into include topic 'freshness', where topics that are new tend to do much better than old topics (unless it's about Donald Trump).
 
+## Final Thoughts
+
+The media industry is changing pretty rapidly -- it isn't enough to put out regular news reports anymore. People are used to getting their news from social media, be it Facebook, Twitter, Instagram or Reddit. That means that they're used to being <b>part of an online community</b>, where anyone can share their views, and publicly agree/disagree with each other. In short, people are increasingly going to be drawn to a news platform that allow them to be part of a community.
+
+There's also been a turn towards reader engagement in the form of interactive articles. Many millennials / Gen Z youth have obtained a pretty high standard of digital literacy. They appreciate graphs and data that personally speaks to them, versus a static page that doesn't allow for any interaction.
+
+As digital advertising changes in the wake of digital privacy laws and changing consumer habits, newspapers and the media industry in general must drastically overhaul their business to stay profitable. This also extends to the field of public relations, which needs to adopt new tools and methodologies to be able to <b>tell stories that people actually want to hear</b>. Being able to predict news popularity will continue to be a key area of interest over the coming years.
+
 ## Related Work
 
 In the course of this project, I found a few other datasets that have a similar focus on online news popularity:
 - [Mashable 2015 Dataset](https://archive.ics.uci.edu/ml/datasets/online+news+popularity) - contains 39,797 articles and over 61 features. In addition to features such as sentiment polarity, the authors of the dataset used latent dirichlet allocation (LDA) to group articles into five different topics.
-- [New York Times Blog Posts 2015 Dataset](https://www.kaggle.com/c/15-071x-the-analytics-edge-competition-spring-2015/overview) - part of a Kaggle competition to predict the popularity of New York Times blog posts. Contains A wide range of models and methods were used in this competition.
-- [New York Times Comments 2017 / 2018 Dataset](https://www.kaggle.com/aashita/nyt-comments) - this dataset was mainly used by Kaggle users to analyze comment popularity e.g. what makes a comment popular, or likely to be recommended to other readers by the NYT staff.
+- [New York Times Blog Posts 2015 Dataset](https://www.kaggle.com/c/15-071x-the-analytics-edge-competition-spring-2015/overview) - part of a Kaggle competition to predict the popularity of New York Times blog posts. Contains 8420 articles with 9 features.
+- [New York Times Comments 2017 / 2018 Dataset](https://www.kaggle.com/aashita/nyt-comments) - exploratory dataset that was mainly used by Kaggle users to analyze comment popularity e.g. what makes a comment popular, or likely to be recommended to other readers by the NYT staff.
 
 ## Data Dictionary
 
